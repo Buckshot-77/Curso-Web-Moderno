@@ -3,5 +3,3 @@ let comparaComThis = function (parametro) {
 }
 
 comparaComThis(global)
-
-

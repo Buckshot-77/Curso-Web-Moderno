@@ -1,3 +1,5 @@
+// A função acaba funcionando como um molde/classe para um objeto, que é construído e instanciado a partir da mesma.
+
 function Carro (velocidadeMaxima = 200, delta = 5) {
     //atributo privado
     let velocidadeAtual = 0
@@ -17,11 +19,11 @@ function Carro (velocidadeMaxima = 200, delta = 5) {
     }
 }
 
-const uno = new carro
+const uno = new Carro
 uno.acelerar()
 console.log(uno.getVelocidadeAtual())
 
-const ferrari = new carro(350, 20)
+const ferrari = new Carro(350, 20)
 ferrari.acelerar()
 ferrari.acelerar()
 ferrari.acelerar()

@@ -4,7 +4,7 @@ function Carro (velocidadeMaxima = 200, delta = 5) {
     //atributo privado
     let velocidadeAtual = 0
 
-    //metodo público
+    //metodo público utilizado para modificar o atributo privado
     this.acelerar = function() {
         if (velocidadeAtual + delta <= velocidadeMaxima){
             velocidadeAtual += delta
@@ -13,7 +13,7 @@ function Carro (velocidadeMaxima = 200, delta = 5) {
         }
     }
 
-    // Método público
+    // Método público utilizado para acessar o atributo privado
     this.getVelocidadeAtual = function(){
         return velocidadeAtual
     }

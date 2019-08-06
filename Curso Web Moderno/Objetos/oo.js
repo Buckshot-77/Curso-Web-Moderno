@@ -19,6 +19,4 @@ objeto.processamento()
  * 1 - Abstração - Adequar os métodos à relevância dos mesmos dentro da aplicação do mundo real. Sempre que for possível usar um grau de abstração maior sem comprometer a execução, é preferível.
  * 2 - Encapsulamento - Detalhes de implementação deve 
  * 
- * 
- * 
  */

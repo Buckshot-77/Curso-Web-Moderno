@@ -16,3 +16,5 @@ console.log(Object.prototype.__proto__ === null)
 function MeuObjeto() {}
 console.log(typeof Object, typeof MeuObjeto)
 console.log(Object.prototype, MeuObjeto.prototype)
+
+
